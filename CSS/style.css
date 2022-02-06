@@ -1,0 +1,107 @@
+body{
+    background-color: rgb(231, 248, 244);
+    font-family: cursive;
+}
+.nav{
+    text-decoration: none;
+    color: black;
+    border: 2px solid rgb(198, 240, 226);
+    background-color: rgb(184, 248, 227);
+    font-size: 16px;
+    line-height: 40px;
+    margin: 10px 5px;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+.nav:active{
+    position: relative;
+    top: 2px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.4);
+    border: 0;
+}
+nav{
+    border-bottom: 2px solid rgb(107, 221, 183);
+}
+img{
+    max-width: 30%;
+}
+.intro{
+    display: flex;
+    flex-direction: row;
+    font-family: cursive;
+}
+#title{
+    font-family: cursive;
+    font-size: 40px;
+    color: rgb(22, 175, 142);
+}
+.p{
+    max-width: 50%;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+}
+.al{
+    padding: 0 20px;
+}
+.down{
+    float: bottom;
+    color: cornflowerblue;
+}
+#modal-background{
+    background-color: rgba(7, 6, 6, 0.45);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    display: none;
+}
+
+.btn{
+    color: black;
+    border: 2px solid rgb(198, 240, 226);
+    background-color: rgb(184, 248, 227);
+    border-radius: 10px;
+}
+.btn:active{
+    position: relative;
+    top: 2px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.4);
+    border: 0;
+}
+.pergunta{
+    margin: 5px 1px;
+    padding: 5px 5px;
+}
+
+
+#modal-reject{
+    position: fixed;
+    background-color: white;
+    padding: 25px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 800px;
+    min-width: 600px;
+    z-index: 11;
+    border-radius: 5px;
+    display: none;
+    background-color: red;
+    color: white;
+}
+#modal-accept{
+    position: fixed;
+    background-color: white;
+    padding: 25px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 800px;
+    min-width: 600px;
+    z-index: 11;
+    border-radius: 5px;
+    display: none;
+    background-color: rgb(147, 245, 207);
+}
